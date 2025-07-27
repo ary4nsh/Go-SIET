@@ -45,4 +45,5 @@ Flags:
 Example:
 ```
 ./Go-SIET test --ip [ip address]
+./Go-SIET test --list [path to your ip list file]
 ```
