@@ -5,17 +5,17 @@ This is Cisco Smart Install Exploitation tool written in golang, inspired by [SI
 ## Modes
 you must specify a mode to run this program:
 
-**test**:  Tests if devices are vulnerable to Smart Install exploitation
+  **test**:  Tests if devices are vulnerable to Smart Install exploitation
 
-**get-config**: Retrieves configuration files from vulnerable devices
+  **get-config**: Retrieves configuration files from vulnerable devices
 
-**change-config**: Installs new configuration files
+  **change-config**: Installs new configuration files
 
-**execute**: Executes commands on devices
+  **execute**: Executes commands on devices
 
 you can use **help** command with modes to print help messages for modes. for example:
 ```
-./Go-SIET test --help
+  ./Go-SIET test --help
 ```
 
 ## Usage
@@ -44,5 +44,5 @@ Flags:
 
 Example:
 ```
-./Go-SIET test --ip [ip address]
+  ./Go-SIET test --ip [ip address]
 ```
