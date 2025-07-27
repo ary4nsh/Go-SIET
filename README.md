@@ -21,7 +21,7 @@ you can use **help** command with modes to print help messages for modes. for ex
 ## Usage
 ```
 Usage:
-  Go-SIET [command]
+  ./Go-SIET [command]
 
 Available Commands:
   change-config Change device configurations
@@ -40,4 +40,9 @@ Flags:
       --reload-time        Device reload time in HH:MM format (default is 00:01)
       --reload-time        Device reload time in HH:MM format (default is 00:01)
 
+```
+
+Example:
+```
+./Go-SIET test --ip [ip address]
 ```
