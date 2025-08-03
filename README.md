@@ -1,6 +1,6 @@
 # Go-SIET
 
-This is Cisco Smart Install Exploitation tool written in golang, inspired by [SIETpy3](https://github.com/Sab0tag3d/SIETpy3)
+This is Cisco Smart Install Exploitation tool written in golang that can be used to exploit CVE-2018–0171. This is a critical vulnerability affecting Cisco devices that utilize the Smart Install feature. This tool is inspired by [SIETpy3](https://github.com/Sab0tag3d/SIETpy3)
 
 ## Modes
 you must specify a mode to run this program:
